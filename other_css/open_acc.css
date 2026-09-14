@@ -1,0 +1,18 @@
+body{
+    background-image: url('../images/background.png');
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    background-attachment: fixed;
+    min-height: 100vh;
+    margin: 0;
+    color: rgb(152, 3, 3);
+
+}
+
+
+.wrapper {
+    width: 100%;
+    max-width: 480px; /* Standard maximum width for mobile screens */
+    margin: 0 auto;   /* Centers the mobile window on your laptop screen */
+}
