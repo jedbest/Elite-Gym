@@ -6,15 +6,146 @@ body{
     background-attachment: fixed;
     min-height: 100vh;
     margin: 0;
-    color: rgb(152, 3, 3);
+    width: 100%;
+    max-width: 480px;
 
 }
 
+*{
+    box-sizing: border-box;
+}
+
 .wrapper{
-    .wrapper {
+    color: rgb(152, 3, 3);
     width: 100%;
     max-width: 480px; /* Standard maximum width for mobile screens */
     margin: 0 auto;   /* Centers the mobile window on your laptop screen */
 }
 
+a{
+    text-decoration: none;
+    color: inherit;
+}
+
+.logo{
+    flex-shrink: 0;
+}
+
+.heading{
+ 
+   display: flex;
+      flex-wrap: nowrap;
+   width: 100%;
+   padding-top: 50px;
+   padding-bottom: 20px;
+   padding-left: 25px;
+   
+   margin-left: 7px;
+   min-width: 0;
+}
+
+
+.headers{
+   display: flex;
+  min-width: fit-content;
+    flex: 1;
+    flex-wrap: nowrap;
+    justify-content: flex-end;  
+    align-items: center;
+    gap: 15px;
+     margin-left: 50px;
+   white-space: nowrap;
+   flex-shrink: 0;
+   
+}
+
+.headers button{
+    display: flex;
+    height: auto !important;
+    min-height: 0 !important;
+    padding: 6px 14px;
+    line-height: 1;
+    align-self: flex-start;
+    border-radius: 15px;
+    background-color: black;
+    color: rgb(197, 36, 36);
+    font-size: clamp(10px,3.2vw,14px);
+    white-space: nowrap;
+    flex-shrink: 1;
+
+
+}
+
+.dropdown button img{
+    height: 40%;
+    padding-top: 4%;
+    padding-left: 4%;
+    width: 32px;
+}
+
+.dropdown span{
+  font-size: 26px;
+  padding-top: 4px;
+}
+
+.headers a{
+    
+     font-size: clamp(32px,3.2vw,27px);
+    white-space: nowrap;
+    flex-shrink: 1;
+}
+
+.contact img{
+    width: 50px;
+}
+
+
+
+
+
+.hero_img{
+    width: 500px;
+    border-radius: 30px;
+    margin-top: 13px;
+    padding-left: 13px;
+    padding-right: 13px;
+    margin-left: 22px;
+    margin-bottom: 0;
+}
+
+h1{
+    font-size: 46px;
+    font-weight: bold;
+    margin-top: 10px;
+    margin-left: 145px;
+    margin-bottom: 0;
+}
+
+.under_heroImage{
+    margin-left: 45px;
+}
+
+
+.time{
+    font-size: 29px;
+      font-weight: bold;
+      margin-top: 17px;
+      margin-bottom: 0;
+}
+
+.Hyping{
+ font-size: 32px;
+    font-weight: bold;
+margin-top: 6px;
+margin-bottom: 0;
+}
+
+.mem{
+ font-size: 27px;
+     font-weight: bold;
+margin-top: 13px;
+}
+
+h3{
+   font-size: 40;  
 }
