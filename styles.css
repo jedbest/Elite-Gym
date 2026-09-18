@@ -5,9 +5,8 @@ body{
     background-size: cover;
     background-attachment: fixed;
     min-height: 100vh;
-    margin: 0;
     width: 100%;
-    max-width: 480px;
+     color: rgb(152, 3, 3);
 
 }
 
@@ -15,12 +14,12 @@ body{
     box-sizing: border-box;
 }
 
-.wrapper{
-    color: rgb(152, 3, 3);
+/*.wrapper{
+   
     width: 100%;
     max-width: 480px; /* Standard maximum width for mobile screens */
-    margin: 0 auto;   /* Centers the mobile window on your laptop screen */
-}
+  /*  margin: 0 auto;   /* Centers the mobile window on your laptop screen */
+
 
 a{
     text-decoration: none;
@@ -45,15 +44,19 @@ a{
 }
 
 
+.headings{
+    display: flex;
+    
+}
+
 .headers{
    display: flex;
   min-width: fit-content;
-    flex: 1;
     flex-wrap: nowrap;
-    justify-content: flex-end;  
     align-items: center;
     gap: 15px;
-     margin-left: 50px;
+    justify-content: flex-end;
+     margin-left: 830px;
    white-space: nowrap;
    flex-shrink: 0;
    
@@ -104,7 +107,7 @@ a{
 
 
 .hero_img{
-    width: 500px;
+    width: 1290px;
     border-radius: 30px;
     margin-top: 13px;
     padding-left: 13px;
@@ -117,12 +120,12 @@ h1{
     font-size: 46px;
     font-weight: bold;
     margin-top: 10px;
-    margin-left: 145px;
+    margin-left: 540px;
     margin-bottom: 0;
 }
 
 .under_heroImage{
-    margin-left: 45px;
+    margin-left: 400px;
 }
 
 
