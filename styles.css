@@ -40,7 +40,7 @@ a{
 }
 
 .logo{
-width: 50px;
+width: 48px;
 }
 
 .heading{
@@ -112,9 +112,9 @@ width: 50px;
 
 
 .hero_img{
-    width: 300px;
+    width: 450px;
     border-radius: 30px;
-    margin-top: 13px;
+    margin-top: 12px;
     padding-left: 13px;
     padding-right: 13px;
     margin-left: 22px;
@@ -122,7 +122,7 @@ width: 50px;
 }
 
 h1{
-    font-size: 46px;
+    font-size: 36px;
     font-weight: bold;
     margin-top: 10px;
     margin-left: 145px;
@@ -130,28 +130,28 @@ h1{
 }
 
 .under_heroImage{
-    margin-left: 45px;
+    margin-left: 42px;
 }
 
 
 .time{
-    font-size: 29px;
+    font-size: 22px;
       font-weight: bold;
-      margin-top: 17px;
+      margin-top: 13px;
       margin-bottom: 0;
 }
 
 .Hyping{
- font-size: 32px;
+ font-size: 24px;
     font-weight: bold;
-margin-top: 6px;
+margin-top: 5px;
 margin-bottom: 0;
 }
 
 .mem{
- font-size: 27px;
+ font-size: 20px;
      font-weight: bold;
-margin-top: 13px;
+margin-top: 11px;
 }
 
 h3{
