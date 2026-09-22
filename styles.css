@@ -67,7 +67,7 @@ width: 70px;
     flex: 1;
     flex-wrap: nowrap;
     align-items: center;
-    gap: 18px;
+    gap: 15px;
      margin-left: auto;
    white-space: nowrap;
    
@@ -114,7 +114,7 @@ width: 70px;
 
 
 .hero_img{
-    width: 500px;
+    width: 300px;
     border-radius: 30px;
     margin-top: 13px;
     padding-left: 13px;
