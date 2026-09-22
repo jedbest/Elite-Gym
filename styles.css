@@ -116,8 +116,8 @@ width: 48px;
     border-radius: 30px;
     margin-top: 12px;
     padding-left: 13px;
-    padding-right: 13px;
-    margin-left: 22px;
+    padding-right: 15px;
+    margin-left: 19px;
     margin-bottom: 0;
 }
 
@@ -152,8 +152,11 @@ margin-bottom: 0;
  font-size: 20px;
      font-weight: bold;
 margin-top: 11px;
+margin-bottom: 60px;
 }
 
 h3{
-   font-size: 40;  
+   font-size: 24px;  
+   margin-left: 135px;
+   margin-bottom: 14px;
 }
