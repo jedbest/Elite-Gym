@@ -40,7 +40,7 @@ a{
 }
 
 .logo{
-width: 70px;
+width: 50px;
 }
 
 .heading{
@@ -81,8 +81,6 @@ width: 70px;
     background-color: black;
     color: rgb(197, 36, 36);
     flex-shrink: 1;
-
-
 }
 
 .dropdown button img{
