@@ -112,12 +112,12 @@ width: 48px;
 
 
 .hero_img{
-    width: 450px;
+    width: 400px;
     border-radius: 30px;
-    margin-top: 12px;
-   padding: 10px;
-   padding-left: 24px;
-   margin-left: 8px;
+    margin-top: 10px;
+    padding-left: 13px;
+    padding-right: 13px;
+    margin-left: 27px;
     margin-bottom: 0;
 }
 
@@ -125,7 +125,7 @@ h1{
     font-size: 36px;
     font-weight: bold;
     margin-top: 10px;
-    margin-left: 145px;
+    margin-left: 125px;
     margin-bottom: 0;
 }
 
@@ -144,19 +144,19 @@ h1{
 .Hyping{
  font-size: 24px;
     font-weight: bold;
-margin-top: 5px;
+margin-top: 8px;
 margin-bottom: 0;
 }
 
 .mem{
  font-size: 20px;
      font-weight: bold;
-margin-top: 11px;
+margin-top: 15px;
 margin-bottom: 60px;
 }
 
 h3{
    font-size: 24px;  
-   margin-left: 135px;
-   margin-bottom: 14px;
+   margin-left: 110px;
+   margin-bottom: 17px;
 }
