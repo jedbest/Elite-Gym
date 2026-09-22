@@ -132,7 +132,6 @@ h1{
     font-size: 36px;
     font-weight: bold;
     margin-top: 10px;
-    margin-left: 125px;
     margin-bottom: 0;
 }
 
@@ -162,8 +161,78 @@ margin-top: 15px;
 margin-bottom: 60px;
 }
 
+.sessions_section{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    margin-top: 10px;
+}
+
 h3{
    font-size: 24px;  
-   margin-left: 110px;
    margin-bottom: 17px;
+}
+
+.sessions{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 20px;
+    flex-wrap: wrap;
+    margin-bottom: 30px;
+}
+
+.sessions img{
+    width: 150px;
+    height: 150px;
+
+    object-fit: cover;
+}
+
+.sessions a img{
+    width: 30px;
+    height: 30px;
+    object-fit: cover;
+}
+
+
+
+
+
+
+.gym_describtion{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    margin-top: 10px;
+}
+
+.dumbbels{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-top: 10px;
+}
+
+.gym_describtion img{
+    width: 130px;
+    height: 130px;
+    object-fit: cover;
+}
+
+.spotting{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-top: 10px;
+}
+
+
+.machines{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-top: 10px;
 }
